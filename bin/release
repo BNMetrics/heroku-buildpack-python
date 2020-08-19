@@ -14,10 +14,10 @@ config_vars:
 EOF
 
 
-if [[ $MANAGE_FILE && ! -f $PYTHON_BUILDPACK_NO_DEFAULT_ADDON ]]; then
-cat <<EOF
-
-addons:
-  - heroku-postgresql
-EOF
-fi
+#if [[ $MANAGE_FILE && ! -f $PYTHON_BUILDPACK_NO_DEFAULT_ADDON ]]; then
+#cat <<EOF
+#
+#addons:
+#  - heroku-postgresql
+#EOF
+#fi
